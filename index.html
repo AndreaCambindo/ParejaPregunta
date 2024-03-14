@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAREJA PREGUNTA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="game-container" style="display: none;">
+        <h1 class="title"> JUEGO DE PREGUNTAS PARA PAREJAS </h1>
+        <h2 class="indication">Llego el momento de conocernos un poco más...💕</h2>
+        <p class= "question" id="question"></p>
+        <button onclick="nextQuestion()">Siguiente Pregunta</button>
+    </div>
+
+    <div class="container" id="login-container">
+        <h1 class="title"> PAREJA PREGUNTA </h1>
+        <label for="code">Código </label>
+        <input type="text" id="code" placeholder="Introduce tu código">
+        <button onclick="login()">Iniciar Sesión</button>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+    <script src="login.js"></script>
+</body>
+
+<div class="footer">
+    <p>&copy; 2024 Andrea Cambindo|Todos los derechos reservados|Desarrollado con pasión y código❤️‍🔥¡Explora, sueña, crea! 🚀✨</p>
+</div>
+
+</html>
